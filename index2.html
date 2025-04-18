@@ -95,6 +95,55 @@
                     </form>
                 </div>
               </div>
+
+              <!-- notice section -->
+               <div id="noticesSection" class="">
+                <div class="dashboard-card">
+                    <h2>Create New Notice ...</h2>
+                    <form action="" id="noticeForm" class="form">
+                        <div class="form-group">
+                            <label for="noticeTitle"> Notice Title</label>
+                            <input type="text" id="noticeTitle" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="noticeContent">Notice Content: </label>
+                            <textarea name="" id="noticeContent" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Publish Notice</button>
+                    </form>
+                </div>
+
+                <div class="dashboard-card">
+                    <h2>All Notices</h2>
+                    <div id="noticesList" class="notices-list">
+                        <!-- notices will be rendered here -->
+                    </div>
+                </div>
+               </div>
+
+               <!-- settings -->
+                <div class="" id="settingsSection">
+                    <div class="dashboard-card">
+                        <h2>School Settings</h2>
+                        <form action="" id="schoolSettings">
+                            <div class="form-group">
+                                <label for="">School Name</label>
+                                <input type="text" id="inputSchoolName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">School SLogan</label>
+                                <input type="text" id="inputSchoolSlogan" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Logo Url:</label>
+                                <input type="url" id="inputSchoolLogo" required>
+                            </div>
+                            <button type="submit">Save Settings</button>
+                        </form>
+
+                    </div>
+
+                </div>
           </div>
 
       </div>
