@@ -343,7 +343,7 @@ body{
     background-position: center;
 }
 
-.notice-item {
+/* .notice-item {
     padding: 1.2rem;
     border-bottom: 1px solid var(--nav-border);
     transition: all 0.3s ease;
@@ -351,9 +351,9 @@ body{
     background: var(--secondary-color);
     border-radius: 12px;
     margin-bottom: 1rem;
-}
+} */
 
-.notice-item:last-child {
+/* .notice-item:last-child {
     border-bottom: none;
     margin-bottom: 0;
 }
@@ -400,4 +400,4 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
